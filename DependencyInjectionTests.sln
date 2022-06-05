@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Introduction", "1.Introdu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.Introduction", "1.Introduction\DependencyInjectionTests.Introduction\DependencyInjectionTests.Introduction.csproj", "{E0A1AD63-B42B-458E-AC36-41DD2EF5DE6C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Fundamentals", "2.Fundamentals", "{D53A620F-A403-4150-9D31-77AFA12D5D2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.Fundamentals.Weather.ConsoleApp", "2.Fundamentals\DependencyInjectionTests.Fundamentals.Weather.ConsoleApp\DependencyInjectionTests.Fundamentals.Weather.ConsoleApp.csproj", "{2839C15E-639C-49D7-9625-573C3F1BBBAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.Fundamentals.Weather.Api", "2.Fundamentals\DependencyInjectionTests.Fundamentals.Weather.Api\DependencyInjectionTests.Fundamentals.Weather.Api.csproj", "{A7971AB0-DBB7-420C-A09E-4A78475CD2AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +23,21 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E0A1AD63-B42B-458E-AC36-41DD2EF5DE6C} = {1C34B1DA-C3CE-451E-B767-B404F6D0C7E0}
+		{2839C15E-639C-49D7-9625-573C3F1BBBAC} = {D53A620F-A403-4150-9D31-77AFA12D5D2D}
+		{A7971AB0-DBB7-420C-A09E-4A78475CD2AB} = {D53A620F-A403-4150-9D31-77AFA12D5D2D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E0A1AD63-B42B-458E-AC36-41DD2EF5DE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0A1AD63-B42B-458E-AC36-41DD2EF5DE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0A1AD63-B42B-458E-AC36-41DD2EF5DE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0A1AD63-B42B-458E-AC36-41DD2EF5DE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2839C15E-639C-49D7-9625-573C3F1BBBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2839C15E-639C-49D7-9625-573C3F1BBBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2839C15E-639C-49D7-9625-573C3F1BBBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2839C15E-639C-49D7-9625-573C3F1BBBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7971AB0-DBB7-420C-A09E-4A78475CD2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7971AB0-DBB7-420C-A09E-4A78475CD2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7971AB0-DBB7-420C-A09E-4A78475CD2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7971AB0-DBB7-420C-A09E-4A78475CD2AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
