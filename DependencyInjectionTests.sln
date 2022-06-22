@@ -37,6 +37,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.DeepDive.WeatherApi", "4.DeepDive\DependencyInjectionTests.DeepDive.WeatherApi\DependencyInjectionTests.DeepDive.WeatherApi.csproj", "{CABFAB25-7323-4A4B-B347-A5D86A4A39D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Advanced", "5.Advanced", "{4D29D69F-DD48-4F3C-B411-6996CC1F4A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.Advanced.CustomScope.ConsoleApp", "5.Advanced\DependencyInjectionTests.Advanced.CustomScope.ConsoleApp\DependencyInjectionTests.Advanced.CustomScope.ConsoleApp.csproj", "{F33ADE68-827D-4E66-92D4-E6AEBD352444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.Advanced.DependencyInjectionFuture.ConsoleApp", "5.Advanced\DependencyInjectionTests.Advanced.DependencyInjectionFuture.ConsoleApp\DependencyInjectionTests.Advanced.DependencyInjectionFuture.ConsoleApp.csproj", "{58DD047B-80B7-475F-BD5D-97084D678F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.Advanced.MultiFunction.ConsoleApp", "5.Advanced\DependencyInjectionTests.Advanced.MultiFunction.ConsoleApp\DependencyInjectionTests.Advanced.MultiFunction.ConsoleApp.csproj", "{0FC4DC40-2626-428B-B726-040C69F9E9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionTests.Advanced.WeatherApi.Decorator", "5.Advanced\DependencyInjectionTests.Advanced.WeatherApi.Decorator\DependencyInjectionTests.Advanced.WeatherApi.Decorator.csproj", "{87DE5816-5987-4EF3-B05D-346B452EDA5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +69,10 @@ Global
 		{C9703D6F-8854-49BC-963C-CDDFA55DE856} = {C8D4F809-CD16-4203-AFD4-69558C362215}
 		{0F25588B-FA8D-4AD4-840B-47B1EED7A56F} = {0E669915-4723-4C1F-BF18-1F5858CD4C85}
 		{CABFAB25-7323-4A4B-B347-A5D86A4A39D5} = {0E669915-4723-4C1F-BF18-1F5858CD4C85}
+		{F33ADE68-827D-4E66-92D4-E6AEBD352444} = {4D29D69F-DD48-4F3C-B411-6996CC1F4A6C}
+		{58DD047B-80B7-475F-BD5D-97084D678F9E} = {4D29D69F-DD48-4F3C-B411-6996CC1F4A6C}
+		{0FC4DC40-2626-428B-B726-040C69F9E9DD} = {4D29D69F-DD48-4F3C-B411-6996CC1F4A6C}
+		{87DE5816-5987-4EF3-B05D-346B452EDA5F} = {4D29D69F-DD48-4F3C-B411-6996CC1F4A6C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E0A1AD63-B42B-458E-AC36-41DD2EF5DE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -113,5 +127,21 @@ Global
 		{CABFAB25-7323-4A4B-B347-A5D86A4A39D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CABFAB25-7323-4A4B-B347-A5D86A4A39D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CABFAB25-7323-4A4B-B347-A5D86A4A39D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33ADE68-827D-4E66-92D4-E6AEBD352444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33ADE68-827D-4E66-92D4-E6AEBD352444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33ADE68-827D-4E66-92D4-E6AEBD352444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33ADE68-827D-4E66-92D4-E6AEBD352444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DD047B-80B7-475F-BD5D-97084D678F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DD047B-80B7-475F-BD5D-97084D678F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DD047B-80B7-475F-BD5D-97084D678F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DD047B-80B7-475F-BD5D-97084D678F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC4DC40-2626-428B-B726-040C69F9E9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC4DC40-2626-428B-B726-040C69F9E9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC4DC40-2626-428B-B726-040C69F9E9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC4DC40-2626-428B-B726-040C69F9E9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DE5816-5987-4EF3-B05D-346B452EDA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DE5816-5987-4EF3-B05D-346B452EDA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DE5816-5987-4EF3-B05D-346B452EDA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DE5816-5987-4EF3-B05D-346B452EDA5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
